@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&family=Playfair+Display:ital,wght@0,500;1,900&display=swap");
+body {
+    margin: auto;
+    padding: auto;
+    background-image: url(https://browsecat.net/sites/default/files/all-anime-4k-wallpapers-98981-251829-606454.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: rgb(11, 11, 11);
+    opacity : 0.6;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: "cabin", sans-serif;
+}
+
+p{
+    color : rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+
+ul li a {
+    text-transform: uppercase;
+    display: block;
+    padding: 27px;
+}
+
+/* header */
+
+.header {
+    padding : 100px;
+    background-attachment:fixed;
+    text-align:center;
+    font-size:20px;
+}
+
+/* text avec img */
+
+#pres {
+    text-align: center;
+    padding: 10px;
+}
+
+.text_pres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+p{
+    color : rgb(255, 255, 255);
+}
+
+#pres img {
+    width : 285px;
+    height : 285px;
+    padding-left : 10px;
+}
+
+#pres div p {
+    padding-right: 10px;
+    border-right: solid 1px black;
+    text-align: right;
+    width: 350px;
+}
+
+.footer{
+    background-color: rgb(11, 11, 11);
+    opacity : 0.6;
+    padding: 10px;
+    text-align: center;
+    font-family: "cabin", sans-serif;
+}
